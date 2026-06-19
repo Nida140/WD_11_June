@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- ===============================
+         BASIC META
+    ================================ -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- ===============================
+         TITLE
+    ================================ -->
+    <title>Cravita Technologies | Creative & Visionary IT Applications</title>
+
+    <!-- ===============================
+         SEO META
+    ================================ -->
+    <meta
+      name="description"
+      content="Cravita Technologies builds creative & visionary IT applications by combining custom software services with scalable product-driven innovation."
+    />
+    <meta
+      name="keywords"
+      content="Cravita Technologies, Creative IT Applications, Custom Software, MERN Stack Company, EdTech Software, IT Services, SaaS Development"
+    />
+    <meta name="author" content="Cravita Technologies" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- ===============================
+         PERFORMANCE OPTIMIZATIONS
+    ================================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://connect.facebook.net" />
+
+    <!-- Preload Critical Assets -->
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/images/cravita.png"
+      fetchpriority="high"
+    />
+
+    <!-- Critical CSS (Inlined for FCP/LCP) -->
+    <style>
+      :root {
+        --color-primary-blue: #0e76bc;
+        --color-secondary-navy: #0a2540;
+        --color-bg-white: #ffffff;
+        --color-text-dark: #111827;
+        --color-sky: #38bdf8;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family:
+          "Lato",
+          "Helvetica Neue",
+          Helvetica,
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background: #ffffff;
+        color: #111827;
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #ffffff;
+        color: #111827;
+      }
+
+      #root {
+        min-height: 100vh;
+      }
+
+      /* Ensure Hero is sized correctly before JS builds it */
+      .hero-placeholder {
+        background: #060d18;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+
+    <!-- ===============================
+         PWA / WEB APP
+    ================================ -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <!-- ===============================
+         OPEN GRAPH
+    ================================ -->
+    <meta
+      property="og:title"
+      content="Cravita Technologies | Creative & Visionary IT Applications"
+    />
+    <meta
+      property="og:description"
+      content="Custom IT services and industry-focused software products for growing businesses."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.cravitatechnologies.com" />
+    <meta property="og:image" content="/assets/images/cravita.png" />
+
+    <!-- ===============================
+         TWITTER CARD
+    ================================ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Cravita Technologies | Creative & Visionary IT Applications"
+    />
+    <meta
+      name="twitter:description"
+      content="Scalable IT applications built with creativity and long-term vision."
+    />
+    <meta name="twitter:image" content="/assets/og-cravita.png" />
+
+    <!-- ===============================
+         FAVICON
+    ================================ -->
+    <link rel="icon" type="image/png" href="/cravitaICO.ico" />
+
+    <!-- ===============================
+         GOOGLE FONT
+    ================================ -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <style>
+      @font-face {
+        font-family: "Agency FB";
+        font-style: normal;
+        font-weight: 700;
+        src:
+          local("Agency FB"),
+          url("https://fonts.cdnfonts.com/s/14864/AGENCYB.woff") format("woff");
+        font-display: swap;
+      }
+    </style>
+
+    <!-- ===============================
+         BOOTSTRAP ICONS ONLY (Deferred)
+    ================================ -->
+    <link
+      rel="stylesheet"
+      href="/assets/css/bootstrap-icons.css"
+      media="print"
+      onload="this.media = 'all'"
+    />
+
+    <!-- Third-Party Script Loader (Idle-Only) -->
+    <script>
+      (function () {
+        const loadScripts = () => {
+          // 1. Google Tag Manager
+          (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+            var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s),
+              dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+          })(window, document, "script", "dataLayer", "GTM-WWWT2L4P");
+
+          // 2. Facebook Pixel
+          !(function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+              n.callMethod
+                ? n.callMethod.apply(n, arguments)
+                : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = "2.0";
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+          })(
+            window,
+            document,
+            "script",
+            "https://connect.facebook.net/en_US/fbevents.js"
+          );
+          fbq("init", "675216362316860");
+          fbq("track", "PageView");
+        };
+
+        if ("requestIdleCallback" in window) {
+          requestIdleCallback(loadScripts, { timeout: 3000 });
+        } else {
+          window.addEventListener("load", () => setTimeout(loadScripts, 1000));
+        }
+      })();
+    </script>
+    <!-- End Third-Party Script Loader -->
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KMZBX1E4GZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      if (!window.location.pathname.startsWith("/admin")) {
+        gtag("config", "G-KMZBX1E4GZ");
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-C-bIGYRy.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-BXGzPgoN.js">
+    <link rel="modulepreload" crossorigin href="/assets/swiper-BQsMjX0t.js">
+    <link rel="modulepreload" crossorigin href="/assets/gsap-B2uKOqL4.js">
+    <link rel="modulepreload" crossorigin href="/assets/framer-motion-xExS6Sbh.js">
+    <link rel="modulepreload" crossorigin href="/assets/lucide-react-BJ5MnOwP.js">
+    <link rel="modulepreload" crossorigin href="/assets/lenis-CBlNbkdS.js">
+    <link rel="stylesheet" crossorigin href="/assets/swiper-Boa3-UYF.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-BE-Aj7cE.css">
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WWWT2L4P"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=675216362316860&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- ===============================
+         NO JS FALLBACK
+    ================================ -->
+    <noscript>
+      Cravita Technologies requires JavaScript to run this application.
+    </noscript>
+
+    <!-- ===============================
+         REACT ROOT
+    ================================ -->
+    <div id="root"></div>
+
+    <!-- ===============================
+         MAIN ENTRY (VITE)
+    ================================ -->
+  </body>
+</html>
