@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration form</Form></title>
 </head>
 <body>
-    <form>
+    <!--action use for nevigate the another page-->
+    <form action="Chessborad.html">
+        <!--fieldset use for the setting of border-->
         <fieldset><legend>Registration Form</legend>
+            <!--label tag to have the name before tag-->
             <label>Name:</label>
             <input type="text" placeholder="Enter your Name">
             <br><br>
@@ -20,8 +23,35 @@
             <label>Password:</label>
             <input type="password" placeholder="Enter password">
             <br><br>
+            <!---->
+            <label>Address: </label>
+            <textarea cols="15" rows="5"></textarea>
+            <br><br>
+            <!--Radio Button-->
+            <label>Gender: </label>
+            <input type="radio" id="gender" name="gen1">Male
+            <input type="radio" id="gender" name="gen1">female
+            <br><br>
+            <!--Checkbox-->
+            <label>Course: </label>
+            <input type="checkbox">Web designing
+            <input type="checkbox">SQL
+            <input type="checkbox">Java Fullstack
+            <input type="checkbox">PHP
+            <input type="checkbox">.Net
+            <br><br>
+            <!--Dropdown list-->
+            <label>City:</label>
+            <select>
+                <option>Solapur</option>
+                <option>Pune</option>
+                <option>Hyderabad</option>
+                <option>Mumbai</option>
+            </select>
+            <br><br>
 
-            <button>Register</button>
+            <button type="submit" value="Register">Register</button>
+
         </label>
         </fieldset>
     </form>
