@@ -19,5 +19,5 @@ div+p{
 /*General Sibling Selector*/
 
 div~p{
-    font-family: italic;
+    font-style: italic ;
 }
