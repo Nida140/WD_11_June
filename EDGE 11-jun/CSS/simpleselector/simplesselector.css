@@ -1,0 +1,28 @@
+/* Simple selector */
+
+/*id selector*/
+#id1 {
+      color: chartreuse;
+}
+
+/* class selector*/
+.class1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 47, 255);
+}
+
+/* # tagname/element */
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(147, 135, 222);
+}
+
+/* grouping selector*/
+#id1,.class1,h4{
+    font-size: large;
+}
+
+/*Universal Selector*/
+*{
+    background-color: rgba(226, 220, 43, 0.849);
+}

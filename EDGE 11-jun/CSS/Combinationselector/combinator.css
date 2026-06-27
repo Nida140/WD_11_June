@@ -1,0 +1,23 @@
+/*Combinator Selectors*/
+
+/*Descendant Combinator Selector*/
+div p {
+   color: rgb(70, 181, 181); 
+}
+
+/*child Combinator selector*/
+div>p{
+    color: rgb(178, 130, 66);
+}
+
+/*Adjacent Sibling Combinator Selector*/
+
+div+p{
+    background-color: aquamarine;
+}
+
+/*General Sibling Selector*/
+
+div~p{
+    font-style: italic ;
+}
