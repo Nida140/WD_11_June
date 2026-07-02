@@ -1,0 +1,26 @@
+*{
+    background: radial-gradient(rgb(207, 82, 82) ,rgb(209, 209, 130),rgb(112, 215, 112));
+}
+div{
+    height:300px;
+    width: 300px;
+    background:linear-gradient(white,rgb(227, 127, 227));
+    padding-top: 80px;
+    padding-left:200px;
+    float: left;
+    margin-top:100px;
+    border-style: dotted;
+    border-color: rgb(25, 14, 123);
+    border-width: 5px;
+    box-shadow: 30px 40px 10px 20px rgb(114, 175, 244);
+    opacity: 1.3;
+    animation-duration: 4s;
+}
+div:hover{
+    background:linear-gradient(rgb(233, 188, 67),rgb(95, 241, 241));
+}
+
+@keyframes myAnimation {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
